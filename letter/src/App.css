@@ -1,0 +1,65 @@
+.App {
+  background-color: hsl(234, 29%, 20%);
+  height: 100vh;
+  width: 100vh;
+  padding-top: 10px;
+}
+.container {
+  height: 500px;
+  width: 800px;
+  background-color: white;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 25px;
+}
+
+.left {
+  width: 50%;
+  padding: 40px;
+}
+.right {
+  padding-top: 15px;
+
+  padding-left: 10px;
+}
+
+.image {
+  height: 470px;
+  width: 350px;
+}
+
+.List {
+  margin-bottom: 10px;
+}
+.ImageIcon {
+  margin-right: 10px;
+  width: 13px;
+}
+
+.form {
+  margin-top: 25px;
+}
+
+input {
+  height: 40px;
+  width: 320px;
+  border-radius: 5px;
+  border: 0.5px solid black;
+}
+.btn {
+  margin-top: 20px;
+  height: 40px;
+  width: 330px;
+  background-color: hsl(352, 60%, 57%);
+  border-radius: 5px;
+  color: white;
+  border: none;
+}
+
+input-error {
+  height: 40px;
+  width: 320px;
+  border-radius: 5px;
+  border: 0.5px solid red;
+}
